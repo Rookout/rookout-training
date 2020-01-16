@@ -41,4 +41,4 @@ We're almost ready to start setting Non-Breaking Breakpoints, but first lets tak
 6.  Click the Save button.  You should see the name of your project change to **Python To-Do App**.
 
 
-You're now ready to move on to [Section 4 - Creating Non-Breaking Breakpoints](./non-breaking-breakpoints.md) where we will explore how you can start getting data from your live running applications.
+You're now ready to move on to [Section 4 - Setting Non-Breaking Breakpoints](./non-breaking-breakpoints.md) where we will explore how you can start getting data from your live running applications.

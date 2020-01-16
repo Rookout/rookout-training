@@ -1,4 +1,4 @@
-# Rookout Non-Breaking Breakpoints
+# Setting Non-Breaking Breakpoints
 
 This section of the workshop will guide you through the following areas:
 

@@ -60,4 +60,4 @@ On the far left side, there is a **Purple Bar** which contains links to top leve
 
 <p><img src="images/organization-settings.png" width="800"/><p>
 
-You're now ready to move on to [Section 3 - Projects and Filtering Application Instances](./non-breaking-breakpoints.md) where we will explore the concept of **Rookout Projects** and see how we can filter **Application Instances** using **Rookout Labels**.
+You're now ready to move on to [Section 3 - Projects and Filtering Application Instances](./projects-filters.md) where we will explore the concept of **Rookout Projects** and see how we can filter **Application Instances** using **Rookout Labels**.

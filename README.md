@@ -22,12 +22,12 @@ In order to complete the training, users should have the following:
 
 # Workshop Sections
 
-**The Rookout training consists of the following sections:**
+The Rookout training consists of the following sections:
 
 * Section 1 - [Configuring the Rookout SDK](./configure-rookout-sdk.md)
 * Section 2 - [Connecting Sources and Exploring the Rookout App](./sources-rookuot-app.md)
 * Section 3 - [Projects and Filtering Application Instances](./projects-filters.md)
-* Section 4 - [Creating Non-Breaking Breakpoints](./non-breaking-breakpoints.md)
+* Section 4 - [Setting Non-Breaking Breakpoints](./non-breaking-breakpoints.md)
 * Section 5 - [Editing Non-Breaking Breakpoints](./editing-breakpoints.md)
 * Section 6 - [Configuring Rookout Data Targets](./targets.md)
 

@@ -2,7 +2,7 @@
 
 This section of the workshop will take you through how to setup the [Rookout SDK](https://docs.rookout.com/docs/python-setup.html) in a sample Python [Flask](https://www.palletsprojects.com/p/flask/) application.  The application is a simple web based To-Do app which allows you to add and delete items from a list.  In this case, we're going to be running the application locally, but Rookout can work anywhere you have your application deployed including **Test** and **Production** environments.
 
-In this case we'll be using Python, but Rookout also supports Node.js, Java, and .NET.  For more details on the setup process for other languages, visit the Rookout documentation available at https://docs.rookout.com
+In this case we'll be using Python, but Rookout also supports Node.js, any JVM based language including Java, and .NET.  For more details on the setup process for other languages, visit the Rookout documentation available at https://docs.rookout.com
 
 Let's get started:
 
@@ -65,7 +65,7 @@ Let's get started:
     app = flask.Flask(__name__, static_url_path='/static')
     ```
 
-7. Finally, we'll need to set your [Rookout Token](https://docs.rookout.com/docs/python-setup.html#sdk-api) as an environment variable before we restart our application.  From the command line set the following environment variable:
+7. Finally, we'll need to set the [Rookout Token](https://docs.rookout.com/docs/python-setup.html#sdk-api) as an environment variable before we restart our application.  From the command line set the following environment variable:
     ```
     export ROOKOUT_TOKEN=<Your Rookout Token>
     ```
