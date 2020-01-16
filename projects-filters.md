@@ -25,7 +25,7 @@ We're almost ready to start setting Non-Breaking Breakpoints, but first lets tak
 
 <p><img src="images/duplicate-project.png" width="800"/><p>
 
-4.  Click on the **My-first-project-#1 - copy** project and rename it to Python To-Do App by changing the project name field on the right side of the screen.
+4.  Click on the **My-first-project-#1 - copy** project and rename it to **Python To-Do App** by changing the project name field on the right side of the screen.
 
 5.  Before we save the project, let's also configure the **Filter** which we configured when we installed the SDK.  A filter is a key/value pair which is attached to a running Application Instance that allows you to tell Rookout which applications you want to debug.  There built in filter types such as **IP Address**, **hostname**, and **process name** but you can also define your own filters.  For example, you may want to create labels called env:dev, env:staging, and env:production so that you can filter application instances deployed to different environments.
 

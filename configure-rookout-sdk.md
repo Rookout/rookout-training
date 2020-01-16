@@ -4,7 +4,7 @@ This section of the workshop will take you through how to setup the [Rookout SDK
 
 In this case we'll be using Python, but Rookout also supports Node.js, any JVM based language including Java, and .NET.  For more details on the setup process for other languages, visit the Rookout documentation available at https://docs.rookout.com
 
-Let's get started:
+Before beginning this section, make sure you've created a Rookout account as described on the [Setup page](./setup.md) Let's get started:
 
 1. To start, open up a command line interface and clone the To-Do app repository here: https://github.com/jhendrick/python-todo-app
 
