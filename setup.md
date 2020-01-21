@@ -11,7 +11,7 @@ As discussed on the [README page](./readme.md), the following are requirements t
 
 ## Create a GitHub Account
 
-Sign up for a GitHub account at the link above.  No special configuration is required.
+Sign up for a GitHub account at the link above. You should also have git installed locally on your workstation as you'll be interacting with your GitHub repository from the command line.
 
 ## Download and Install Docker Desktop
 

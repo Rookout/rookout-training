@@ -6,7 +6,11 @@ In this case we'll be using Python, but Rookout also supports Node.js, any JVM b
 
 Before beginning this section, make sure you've created a Rookout account as described on the [Setup page](./setup.md) Let's get started:
 
-1. To start, open up a command line interface and clone the To-Do app repository here: https://github.com/jhendrick/python-todo-app
+1. To start, you'll need to fork the **python-todo-app** repository - https://github.com/Rookout/python-todo-app - into your GitHub account so that you can add the Rookout SDK and then commit those changes.  If you haven't forked a repository before, click on the fork button as shown in the image below.
+
+<p><img src="images/fork-repo.png" width="800"/><p>
+
+2. Next, open up a command line interface and clone the To-Do app repository which you just forked: ```https://github.com/<your-github-username>/python-todo-app```.  For example:
 
     ```
     git clone https://github.com/jhendrick/python-todo-app
@@ -97,5 +101,13 @@ Before beginning this section, make sure you've created a Rookout account as des
 10.  Finally, when you navigate back to the **Rookout Wizard** you should see the **Waiting for SDK Connection** button display **All Set!**.
 
 <p><img src="images/wizard-all-set.png" width="800"/><p>
+
+11.  Finally, commit your code changes back to your GitHub repo:
+
+```
+git add -A
+git commit -m "Added Rookout SDK"
+git push
+```
 
 Congratulations! You've configured the Rookout SDK and are now ready to connect your sources in the next section.  Click on the link to proceed to [Section 2 - Connecting Sources and Exploring the Rookout App](./sources-rookout-app.md).
