@@ -56,4 +56,4 @@ Take some time to browse the **Message Data** and the other sections.
 
 > Note: If you would like to get a link to share this snapshot with other members of your team, you can click on the **Share** icon on the right side of the Message Data window.
 
-Congratulations, you've successfully set a **Non-Breaking Breakpoint** within the application and collected snapshot data from the application.  You're now ready to move on to [Section 5 - Editing Non-Breaking Breakpoints](./editing-breakpoints.md) where we will explore how you can start customizing how and when data is collected.
+Congratulations, you've successfully set a **Non-Breaking Breakpoint** and collected snapshot data from the running application.  You're now ready to move on to [Section 5 - Editing Non-Breaking Breakpoints](./editing-breakpoints.md) where we will explore how you can start customizing how and when data is collected.
