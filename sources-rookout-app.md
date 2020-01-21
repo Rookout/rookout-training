@@ -47,7 +47,7 @@ The Rookout interface is divided into a few parts.  The top right side is the **
 
 On the far left side, there is a **Purple Bar** which contains links to top level views including:
 
-* The Debugger
+* Debugger
 * Application Instances
 * Targets
 * Organization Settings

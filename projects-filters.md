@@ -5,7 +5,7 @@ This section of the workshop will take you through the following:
 * The benefits of using **Projects** in your teams
 * Configuring **Filters** based on the **Label** key/value pair we configured in the prior section
 
-We're almost ready to start setting Non-Breaking Breakpoints, but first lets take a look more in depth at your Rookout project and see how we can configure Rookout to filter different application instances:
+We're almost ready to start setting **Non-Breaking Breakpoints**, but first lets take a look more in depth at your Rookout project and see how we can configure Rookout to filter different application instances:
 
 1.  From the Purple menu bar on the left side, navigate back to the **Debugger view**.  From here, click on the **gear icon** directly next to your project name **My-first-project-#1**.  This will open the Rookout Projects editor.
 
