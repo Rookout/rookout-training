@@ -30,6 +30,7 @@ Create a Rookout account by following the below instructions:
 <p><img src="images/rookout-signup.png" width="800"/><p>
 
 2. On Sign up you'll be brought to the Rookout application to confirm your e-mail address.  You should recieve an email link containing a link to confirm your account.
+
 > Note: Rookout recommends you use the [Chrome browser](https://www.google.com/chrome/) for the best experience
 
 <p><img src="images/wizard-verify-email.png" width="800"/><p>
@@ -40,7 +41,7 @@ Create a Rookout account by following the below instructions:
 
 4. Start by giving your Rookout Organization a name and then click next.  You can ignore the **Redeem coupon** field.
 
-> Note: Rookout uses the concept of **Organizations** to organize the members of a development team so that team members can more easily share and collaborate projects.  You'll learn more about Rookout projects in a later section.
+> Note: Rookout uses the concept of **Organizations** to organize the members of a development team so that team members can more easily share and collaborate on projects.  You'll learn more about Rookout projects in a later section.
 
 <p><img src="images/wizard-name-org.png" width="800"/><p>
 
@@ -54,11 +55,11 @@ Create a Rookout account by following the below instructions:
 
 <p><img src="images/wizard-install-sdk-2.png" width="800"/><p>
 
-7. In the next section, you can see an example of how to import Rookout into your application.  Take note of the **Rookout Token**.  For now, copy and paste this token into a notepad on your computer.  We will use this in the next section when we configure the **Rookout SDK** in our To-Do application. 
+7. In the next section, you can see an example of how to import Rookout into your application.  Take note of the **Rookout Token**.  For now, copy and paste this token into a notepad on your computer.  We will use this in the next section when we configure the **Rookout SDK** in the To-Do application. 
 
 <p><img src="images/wizard-sdk-import.png" width="800"/><p>
 
-8. Finally, clicking next, Rookout will begin waiting for your first SDK connection.
+8. Finally, click next. Rookout will begin waiting for your first SDK connection.
 
 <p><img src="images/wizard-sdk-connection.png" width="800"/><p>
 

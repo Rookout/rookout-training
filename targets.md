@@ -14,22 +14,22 @@ Let's get started:
 
 1. First, let's setup the **Slack target** by clicking on the **Targets** link from the purple menu bar on the left hand side.  This will bring you to the **Targets configuration page** where you can add a new target.
 
-<p><img src="images/targets-menu-link.png" width="800"/><p>
+    <p><img src="images/targets-menu-link.png" width="800"/><p>
 
 2.  Click on the **Add new target** button in the top right corner and select **Slack**.  This should bring up the **Slack** configuration screen.
 
-<p><img src="images/targets-slack-config.png" width="800"/><p>
+    <p><img src="images/targets-slack-config.png" width="800"/><p>
 
-Before proceeding, join the **rookout-training** slack workspace by clicking on this link and following the prompts: https://join.slack.com/t/rookout-training/shared_invite/enQtOTE2MjE0MTczOTUyLWMzY2RhYzRiMzZkMmMzMTMyNjE3ZjVlOGNkNTI2YzBkOTNkYjlhNjUzM2UwNmQ1YzdhY2UwNTk5NzQ0M2UxMzI
+    Before proceeding, join the **rookout-training** slack workspace by clicking on this link and following the prompts: https://join.slack.com/t/rookout-training/shared_invite/enQtOTE2MjE0MTczOTUyLWMzY2RhYzRiMzZkMmMzMTMyNjE3ZjVlOGNkNTI2YzBkOTNkYjlhNjUzM2UwNmQ1YzdhY2UwNTk5NzQ0M2UxMzI
 
-Confirm that you can access the **#rookout-training** channel. Once you're a member of the *rookout-training* workspace, you will need to provide the following information to configure the Slack target in Rookout:
+    Confirm that you can access the **#rookout-training** channel. Once you're a member of the *rookout-training* workspace, you will need to provide the following information to configure the Slack target in Rookout:
 
-* **Name of the Target**: this can by any name you choose.  Let's call it '***Slack - #rookout-training***'
-* **Token**: The Slack API Token. Generate an API token by clicking on this link https://api.slack.com/custom-integrations/legacy-tokens and scrolling down until you see the **Create token** button under the rookout-training workspace.  Click **Create token** to generate a token.  You may need to first input your password and click Create token a second time.
+    * **Name of the Target**: this can by any name you choose.  Let's call it '***Slack - #rookout-training***'
+    * **Token**: The Slack API Token. Generate an API token by clicking on this link https://api.slack.com/custom-integrations/legacy-tokens and scrolling down until you see the **Create token** button under the rookout-training workspace.  Click **Create token** to generate a token.  You may need to first input your password and click Create token a second time.
 
-    <p><img src="images/targets-slack-token.png" width="350"/><p>
+        <p><img src="images/targets-slack-token.png" width="350"/><p>
 
-* **Channel**: The Slack channel name to send the message to.  In this case use the slack channel name '***rookout-training***'.  Note that you do not need to include the '*#*' symbol in the name.
+    * **Channel**: The Slack channel name to send the message to.  In this case use the slack channel name '***rookout-training***'.  Note that you do not need to include the '*#*' symbol in the name.
 
     Your configuration should look like this:
 
@@ -39,7 +39,7 @@ Confirm that you can access the **#rookout-training** channel. Once you're a mem
 
 4.  Now, from the purple menu bar on the left side, click back to the **Debugger** view.  Click the **Breakpoints** tab from the left hand menu and edit the breakpoint by clicking the **three dots** to the right of the breakpoints and selecting **Edit Breakpoints**. 
 
-<p><img src="images/targets-edit-bp.png" width="800"/><p>
+    <p><img src="images/targets-edit-bp.png" width="800"/><p>
 
 5.  In the **BP Edit** screen, click on the **Target** box to expand the section and change the drop down from **Rookout** to '***Slack - #rookout-training***'.
 
@@ -56,7 +56,7 @@ Confirm that you can access the **#rookout-training** channel. Once you're a mem
     ```
     Replace `<your-username>` with your GitHub username so that you can differentiate your message from other trainee messages.
 
-    > Note: Notice that you can use the curly brace notation '{ }' in your message which allows direct access to local variables within your application.  In the original message, you'll also notice that you can access internal Rookout namespaces which allow you to access infromation about the Rookout SDK as well as various data elements related to the breakpoint.  To read more on this in the documentation refer to the following link: https://docs.rookout.com/docs/breakpoints-reference/#namespaces
+    > Note: Notice that you can use the curly brace notation '{ }' in your message which allows direct access to local variables within your application.  In the original message, you'll also notice that you can access internal Rookout namespaces which allow you to access information about the Rookout SDK as well as various data elements related to the breakpoint.  To read more on this in the documentation refer to the following link: https://docs.rookout.com/docs/breakpoints-reference/#namespaces
 
     <p><img src="images/targets-message-dropdown.png" width="350"/><p>
 

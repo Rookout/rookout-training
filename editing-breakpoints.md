@@ -4,11 +4,11 @@ In the last section we looked at how to set a **Non-Breaking Breakpoint** within
 
 * Configuring **Conditional Breakpoints** which will trigger Rookout to collect a snapshot only when specific conditions are met
 * Using the **Time-to-Live** functionality to determine the *life span* of a breakpoint
-* Adjusting the **collection depth**x of a breakpoint
+* Adjusting the **collection depth** of a breakpoint
 
 Let's get started:
 
-1.  In the **Message Data** window which was reviewed in the last section, find the **todoStr** variable in the list of local variables.  The value should be set to the string you added to your To-Do list.  In this case, the value is **Rookout**.
+1.  In the **Message Data** window which was reviewed in the last section, find the **todoStr** variable in the list of local variables.  The value should contain the string you added to your To-Do list.  In this case, the value is **Rookout**.
 
     <p><img src="images/edit-bp-message-data.png" width="350"/><p>
 
@@ -19,9 +19,9 @@ Let's get started:
 
 2.  Let's see how we can further configure and edit the conditional which we just created.  Click on the **Edit BP** tab.  This will bring up the **Edit Breakpoint** view.  Notice the condition we just created is listed within the **Condition** section.  Click on the **Condtion** section to expand the **Condition View**.
 
-<p><img src="images/edit-bp-tab.png" width="800"/><p>
+    <p><img src="images/edit-bp-tab.png" width="800"/><p>
 
-3.  Within the **Condition View** the conditional that we just created can be configured.  You can adjust the comparison operator as well as the string to compare.  Notice that you can also create an **Advanced** conditional by clicking on the **Simple / Advance** toggle where you can combine multiple logical expressions separated by && or ||.
+3.  Within the **Condition View** the conditional that we just created can be configured.  You can adjust the comparison operator as well as the string to compare.  Notice that you can also create an **Advanced** conditional by clicking on the **Simple / Advanced** toggle where you can combine multiple logical expressions separated by && or ||.
 
     <p><img src="images/edit-bp-condition-section.png" width="350"/><p>
 
@@ -35,13 +35,13 @@ Let's get started:
 
     > Note: If Hit Limit is used, the breakpoint will be automatically disabled when the hit limit passes the configured limit.  For example, if the hit limit is 2, when the breakpoint is triggered a 3rd time the breakpoint will be automatically disabled.
 
-5.  Set a Hit Limit of 2 and click on the **Set** button at the bottom of the **Edit BP** section to save the breakpoint configuration.  Now, from the To-Do app, add 3 items to the list with the same name as your Conditional value.
+5.  Set a hit limit of 2 and click on the **Set** button at the bottom of the **Edit BP** section to save the breakpoint configuration.  Now, from the To-Do app, add 3 items to the list with the same name as your Conditional value.
 
 6.  Switch back to Rookout and click on the **Breakpoint** tab from the left hand panel.  Notice that the breakpoint is no longer solid purple, it's turned hollow gray.  This means that the breakpoint was automatically disabled based on the **Time-To-Live**.
 
     Re-enable the breakpoint by clicking on the three dots next to the disabled breakpoint and select **Enable**.
 
-<p><img src="images/edit-bp-disabled.png" width="800"/><p>
+    <p><img src="images/edit-bp-disabled.png" width="800"/><p>
 
 7.  Click on the three dots again next to the breakpoint and select **Edit Breakpoint**.  Expand the **Condition** section and disable the **Time-To-Live** by moving the **Hit Limit** slider to **No Hit Limit**.  Click **Set** at the bottom of the **Edit BP** section to save the changes.
 
@@ -67,6 +67,6 @@ Let's get started:
     * Collect local variables
     * Extended collection of local variables
 
-    As the names explain, each represents collection of variables that goes deeper or shallower in the stack.  Feel free to play around with the different settings.  In this example, since we don't have very resource heavy snapshot data you will not see any different between **Collect local variables** and **Extended collection of local variables** in this case.
+    As the names suggest, each represents collection of variables that goes deeper or shallower in the stack.  Feel free to play around with the different settings.  In this example, since we don't have very resource heavy snapshot data you will not see any difference between **Collect local variables** and **Extended collection of local variables**.
 
 You're now ready to move on to [Section 6 - Configuring Rookout Data Targets](./targets.md) where we will explore how you can configure a Rookout Non-Breaking Breakpoint to send collected snapshot data to an external system.
