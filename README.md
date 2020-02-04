@@ -1,4 +1,4 @@
-# Rookout Training Workshop
+# Rookout Workshop
 
 This workshop provides an introduction into Rookout and will cover the following topics:
 
