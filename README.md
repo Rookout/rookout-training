@@ -31,3 +31,11 @@ The Rookout training consists of the following sections:
 * Section 5 - [Editing Non-Breaking Breakpoints](./editing-breakpoints.md)
 * Section 6 - [Configuring Rookout Targets](./targets.md)
 
+
+# How to Contribute
+There are two primary ways to contribute or provide feedback:
+
+* Using the issue tracker
+* Creating a Pull Request
+  * You should fork this repository, make changes in your own fork, and then submit a pull request
+
