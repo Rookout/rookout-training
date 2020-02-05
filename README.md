@@ -32,6 +32,24 @@ The Rookout training consists of the following sections:
 * Section 6 - [Configuring Rookout Targets](./targets.md)
 
 
+# Rookout Use Cases
+
+* **Live Debugging**
+  * Debug running applications in Production, Staging, and Dev environments real time on the fly using Rookout's Non-Breaking Breakpoints
+* **Sustainable Logging**
+  * Log only what you need and use Rookout to debug applications live at runtime
+* **Data Pipelining**
+  * Collect data from live running applications and send it to any external system with an API available including logging or monitoring platforms  
+* **Dynamic Alerting and Monitoring**
+  * Use Rookout as an effective alert management channel.  Data can be sent to Slack or other systems on demand.
+* **On-Demand Pinpoint Profiling**
+  * Developers use Rookout to explore areas where they have performance concerns and pinpoint the exact line that impacts performance.
+* **Dev Collaboration and Handoffs**
+  * Developers can see eachothers work side by side and collaborate real time on issues
+* **Dev Training and Onboarding**
+  * Rookout allows devs to speed up their learning process by letting them observe unfamiliar code “in the wild”: as it’s running live in its true surroundings.
+
+
 # How to Contribute
 There are two primary ways to contribute or provide feedback:
 
