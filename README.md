@@ -1,3 +1,13 @@
+# What is Rookout?
+
+Rookout is a debugging and data-collection solution that allows developers to quickly get data and debug apps/services/APIs in real-time, without stopping the application and without impacting its performance. Rookout supports Java (and any JVM based language), Python, Node.js and .NET/C# (Framework and Core).
+
+Rookout will provide you with better visibility into your applications including the ability to:
+
+* Quickly solve complex engineering issues
+* Slash your Mean Time To Resolution
+* Empower your organization with faster and more reliable delivery processes
+
 # Rookout Workshop
 
 This workshop provides an introduction into Rookout and will cover the following topics:
@@ -33,6 +43,8 @@ The Rookout training consists of the following sections:
 
 
 # Rookout Use Cases
+
+By integrating the Rookout SDK within your application, you can accomplish the following:
 
 * **Live Debugging**
   * Debug running applications in Production, Staging, and Dev environments real time on the fly using Rookout's Non-Breaking Breakpoints
