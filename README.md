@@ -1,3 +1,5 @@
+[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/Rookout/rookout-training)
+
 # What is Rookout?
 
 Rookout is a debugging and data-collection solution that allows developers to quickly get data and debug apps/services/APIs in real-time, without stopping the application and without impacting its performance. Rookout supports Java (and any JVM based language), Python, Node.js and .NET/C# (Framework and Core).
