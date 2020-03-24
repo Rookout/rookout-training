@@ -20,7 +20,7 @@ Let's get started:
 
     <p><img src="images/targets-slack-config.png" width="800"/><p>
 
-    Before proceeding, join the **rookout-training** slack workspace by clicking on this link and following the prompts: https://join.slack.com/t/rookout-training/shared_invite/enQtOTE2MjE0MTczOTUyLWMzY2RhYzRiMzZkMmMzMTMyNjE3ZjVlOGNkNTI2YzBkOTNkYjlhNjUzM2UwNmQ1YzdhY2UwNTk5NzQ0M2UxMzI
+    Before proceeding, join the **rookout-training** slack workspace by clicking on this link and following the prompts: https://join.slack.com/t/rookout-training/shared_invite/zt-d27d9ihx-H1QcnBmlRIHGgMg_72pGXA
 
     Confirm that you can access the **#rookout-training** channel. Once you're a member of the *rookout-training* workspace, you will need to provide the following information to configure the Slack target in Rookout:
 
